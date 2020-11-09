@@ -3,8 +3,12 @@ Airtable scripts collection to save your wishes in airtable and compute your pit
 
 ## Requirement
 To work with these scripts you need to use a template available on airtable universe
-- [French template](https://airtable.com/universe/expGOQN21rBbuf5Yf/compteur-de-voeux-pour-genshin-impact)
+- [template Français](https://airtable.com/universe/expGOQN21rBbuf5Yf/compteur-de-voeux-pour-genshin-impact)
 - English template (available soon)
+
+Complete documentation is available here
+- [Documentation Française](https://www.notion.so/FR-Compteur-de-v-ux-pour-Genshin-Impact-beta-d7e4ca848e874e3483efde2e77084b15)
+- English documentation (available soon)
 
 ## About CORS
 The add-wishes script use [cors-everywhere](https://github.com/Rob--W/cors-anywhere/#documentation) url for demonstration purpose only, if you are using instensively this script please, use your own CORS proxy.
