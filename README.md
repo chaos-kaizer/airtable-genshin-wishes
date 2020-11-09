@@ -6,6 +6,7 @@ To work with these scripts you need to use a template available on airtable univ
 - [template Français](https://airtable.com/universe/expGOQN21rBbuf5Yf/compteur-de-voeux-pour-genshin-impact)
 - English template (available soon)
 
+## Documentation
 Complete documentation is available here
 - [Documentation Française](https://www.notion.so/FR-Compteur-de-v-ux-pour-Genshin-Impact-beta-d7e4ca848e874e3483efde2e77084b15)
 - English documentation (available soon)
