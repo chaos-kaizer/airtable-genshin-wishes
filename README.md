@@ -1,7 +1,7 @@
 # airtable-genshin-wishes
 Airtable scripts collection to save your wishes in airtable and compute your pity rate
 
-## Requirment
+## Requirement
 To work with these scripts you need to use a template available on airtable universe
 - [French template](https://airtable.com/universe/expGOQN21rBbuf5Yf/compteur-de-voeux-pour-genshin-impact)
 - English template (available soon)
