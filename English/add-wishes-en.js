@@ -39,12 +39,18 @@ let getRecordIdFromCellValue = async function(tableName,fieldName,value){
 //Add wishes to table in reverse order
 let updateWishes = async function(wishTable){
   wishTable.reverse();
-  for(let wish of wishTable){
-    await table.createRecordAsync({
+  let wishObjArray = [];
+  for (let wish of wishTable){
+    wishObjArray.push({"fields" : {
       "item_id":[{'id':await getRecordIdFromCellValue("🔒 items","item_id",wish.item_id)}],
       "gatcha_type":[{'id':await getRecordIdFromCellValue("🔒 gatcha types","gatcha_id",wish.gacha_type)}],
       "Date": wish.time
-    });
+    }});
+
+    if(wishObjArray.length == 50 || wish === wishTable[wishTable.length-1]){
+      await table.createRecordsAsync(wishObjArray);
+      wishObjArray.length = 0;
+    }
   }
   output.markdown("**Update complete!**");
 }
